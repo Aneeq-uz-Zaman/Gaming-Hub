@@ -1,9 +1,5 @@
-/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
-    /* background-size: cover;  */
-    /* background-size: contain; */
-
     background-image: url('images/car.png');
     color: #949494;
     margin: 0px;
@@ -21,7 +17,7 @@ body {
     margin: auto;
 }
 
-/* Header Styles */
+
 .header {
     background-color: rgba(45, 45, 45, 0.7);
     color: #fff;
@@ -33,7 +29,7 @@ body {
     font-weight: bold;
 }
 
-.header .nav ul {
+.header ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -41,23 +37,23 @@ body {
     padding: 0;
 }
 
-.header .nav ul li {
+.header  ul li {
     margin: 0 10px;
 }
 
-.header .nav ul li a {
+.header  ul li a {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
     transition: background-color 0.3s ease;
 }
 
-.header .nav ul li a:hover {
-    background-color: #555;
+.header ul li a:hover {
+    background-color: #ff6200;
     border-radius: 30px ;
     border: 1px solid rgb(28, 28, 28);
 }
-/* Header Style */
+
 h1 {
     text-align: center;
     font-family: 'Pacifico', cursive;
@@ -79,7 +75,6 @@ form {
     padding: 30px 20px;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     width: 90%;
     max-width: 600px;
 }
@@ -89,20 +84,19 @@ form {
     width: 80%;
     padding: 15px 15px;
     margin-bottom: 15px;
+    margin-top: 10px;
     margin-left: 45px;
     border: 2px solid #444;
     border-radius: 25px;
     background: #1a1a1a;
     color: #ffffff;
     font-size: 14px;
-    outline: none;
     transition: border 0.3s ease;
-    margin-top: 10px;
+    
 }
 
 
-.radio-group,
-.checkbox-group {
+.radio-group,.checkbox-group {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -114,12 +108,10 @@ label {
     margin-right: 10px;
     font-size: 14px;
     font-weight: normal;
-    /* cursor: pointer; */
-    display: inline-block;
     color: #dddddd;
 }
 
-/* Submit Button */
+
 .submit-button{
     width: 100%;
     padding: 12px;
@@ -128,39 +120,15 @@ label {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: white;
-    border: none;
+    border: 1px solid #469853;
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 .submit-button:hover {
     background: #2575fc;
 }
 
-/* input[type="submit"]:hover {
-    background: #2575fc;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-} */
-
-/* Textarea */
-/* textarea {
-    height: 100px;
-    margin-top: 10px;
-    resize: none;
-} */
-
-/* Responsive Adjustments */
-/* @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    form {
-        width: 95%;
-        padding: 20px 15px;
-    }
-} */
 .footer {
     background-color: #222;
     color: #fff;

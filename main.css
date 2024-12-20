@@ -11,8 +11,8 @@ body {
 }
 #welcome{
     color: #d1d6d2;
-    /* font-family: 'Pacifico', cursive; */
-    font-family: 'Montserrat';
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Montserrat'; */
     padding: 10px;
     align-content: center;
     text-align: center;
@@ -22,10 +22,9 @@ body {
     border-radius: 30px;
     white-space: nowrap;
     overflow: hidden;
-    width: 0;
+    width: 0px;
     animation: typing 3s steps(500) 1s forwards, blink 1s step-end infinite;
-    display: inline-block;
-
+    margin: auto;
 }
 
 @keyframes typing {
@@ -38,7 +37,7 @@ body {
 }
 @keyframes blink {
     50% {
-        border-color: rgb(204, 191, 222);
+        border-color: #ff6200;
     }
 }
 
@@ -48,7 +47,6 @@ body {
     margin: auto;
 }
 
-/* Header Styles */
 .header {
     background-color: rgba(45, 45, 45, 0.7);
     color: #fff;
@@ -80,13 +78,12 @@ body {
 }
 
 .header .nav ul li a:hover {
-    background-color: #555;
+    background-color: #ff6200;
     border-radius: 4px;
 }
 
-/* Hero Section */
+
 .hero {
-    /* background: url('hero-bg.jpg') no-repeat center center/cover; */
     color: #fff;
     text-align: center;
     padding: 100px 20px;
@@ -115,20 +112,6 @@ body {
 .hero .btn:hover {
     background-color: #e55b00;
 }
-
-
-/* Footer */
-.footer {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 0px;
-}
-
-
-
-/* Why Choose Us Section */
 .why-choose {
     padding: 50px 20px;
     background-color: #333;
@@ -157,7 +140,7 @@ body {
     color: #ff6200;
 }
 
-/* Featured Game */
+
 .featured-game {
     padding: 50px 20px;
     background-color: #f5f5f5;
@@ -183,7 +166,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Testimonials */
+
 .reviews {
     background-color: #222;
     color: #fff;
@@ -209,7 +192,6 @@ body {
     color: #ff6200;
 }
 
-/* News Ticker */
 .news-ticker {
     background-color:  #ff6200;
     color: #fff;
@@ -231,4 +213,16 @@ body {
         transform: translateX(-100%);
     }
 }
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+
+
+
+
 
