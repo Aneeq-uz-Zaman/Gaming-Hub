@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #000000, #939bab,  #000000); */
+    background-size: cover;
+    background-image: url('images/car.png');
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    color:#000000;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: rgba(45, 45, 45, 0.7);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav ul li {
+    margin: 0 10px;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.header .nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursive;
+}
+/* Container for the login form */
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    color: #333;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    width: 300px;
+    
+}
+
+/* Input Fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Login Button */
+.login-button {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #11cb2d;
+    font-family: 'Pacifico', cursive;
+    /* border: none; */
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-button:hover {
+    background: #2575fc;
+}
+
+/* Sign-up Link */
+p{
+    font-family: 'Pacifico', cursive;
+    color: rgb(194, 201, 203);
+}
+p a {
+    color: #cb1111;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+p a:hover {
+    color: #2575fc;
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}

@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #b84444; */
+    background-size: contain;
+    background-image: url('images/4.jpg');
+    background-image: 100%;
+    color: #333;
+}
+#welcome{
+    color: #d1d6d2;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Montserrat';
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+    border-radius: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3s steps(500) 1s forwards, blink 1s step-end infinite;
+    display: inline-block;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: rgb(204, 191, 222);
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: rgba(45, 45, 45, 0.7);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav ul li {
+    margin: 0 10px;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.header .nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    /* background: url('hero-bg.jpg') no-repeat center center/cover; */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ff6200;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e55b00;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+
+
+
+/* Why Choose Us Section */
+.why-choose {
+    padding: 50px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature {
+    width: 45%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.feature h3 {
+    font-size: 22px;
+    color: #ff6200;
+}
+
+/* Featured Game */
+.featured-game {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.game-content {
+    display: flex;
+    gap: 20px;
+}
+
+.game-content img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.game-description {
+    text-align: left;
+    width: 45%;
+}
+
+.game-description h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.reviews {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.review-item {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.review-item p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.review-item h4 {
+    margin-top: 10px;
+    color: #ff6200;
+}
+
+/* News Ticker */
+.news-ticker {
+    background-color:  #ff6200;
+    color: #fff;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.news-ticker p {
+    display: inline-block;
+    animation: ticker 10s linear infinite;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
