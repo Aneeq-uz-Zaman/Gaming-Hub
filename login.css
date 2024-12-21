@@ -23,6 +23,7 @@ body {
 .header .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #ff6200;
 }
 
 .header ul {
@@ -49,7 +50,7 @@ body {
     border-radius: 4px;
 }
 h1{
-    color: rgb(255, 255, 255);
+    color: #ff6200;
     font-family: 'Pacifico', cursive;
 }
 
