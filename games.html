@@ -98,7 +98,60 @@
             margin-top: 30px;
         }
 
-     </style>
+        /* Responsive Design */
+        @media screen and (max-width: 900px) {
+            .game-grid {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .game-card {
+                flex: 1 1 45%;
+                min-width: 260px;
+                max-width: 48%;
+                margin: 0 auto;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 98%;
+                padding: 0 5px;
+            }
+            .header .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .header .nav ul li {
+                margin: 5px 0;
+            }
+            .game-grid {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .game-card {
+                max-width: 100%;
+                min-width: 180px;
+                padding: 15px 8px;
+            }
+            .game-card img {
+                height: 180px;
+            }
+            .games h2 {
+                font-size: 28px;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .game-card img {
+                height: 120px;
+            }
+            .game-card h3 {
+                font-size: 16px;
+            }
+            .games h2 {
+                font-size: 20px;
+            }
+        }
+        /* End Responsive Design */
+    </style>
 </head>
 <header class="header">
     <div class="container">

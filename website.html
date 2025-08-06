@@ -30,6 +30,48 @@
             margin-top: 20px;
             display: block; /* Hide the iframe by default */
         }
+
+        /* Responsive Design */
+        @media screen and (max-width: 900px) {
+            .game-list li {
+                font-size: 16px;
+                padding: 8px;
+            }
+            iframe {
+                height: 350px;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .game-list {
+                margin: 10px;
+            }
+            .game-list li {
+                display: block;
+                width: 100%;
+                margin: 8px 0;
+                font-size: 14px;
+                padding: 6px;
+            }
+            iframe {
+                height: 200px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            h1 {
+                font-size: 16px;
+            }
+            .game-list li {
+                font-size: 12px;
+                padding: 4px;
+            }
+            iframe {
+                height: 120px;
+            }
+        }
+        /* End Responsive Design */
     </style>
 </head>
 <body>
